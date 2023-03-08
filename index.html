@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images favicon-32x32.png" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div role="background overlay" class="overlay"></div>
+    <main>
+      <header role="banner">
+        <img src="assets/images/logo.svg" alt="Logo" title="Logo" />
+        <nav role="navigation">
+          <a class="link" href="#">Home</a>
+          <a class="link" href="#">New</a>
+          <a class="link" href="#">Popular</a>
+          <a class="link" href="#">Trending</a>
+          <a class="link" href="#">Categories</a>
+        </nav>
+        <img class="ham" src="assets/images/icon-menu.svg" alt="hamburer" />
+        <img
+          src="assets/images/icon-menu-close.svg"
+          alt="close menu"
+          class="close" />
+      </header>
+
+      <figure role="heroImage" class="hero"></figure>
+      <p class="head" role="Heading">The Bright Future of Web 3.0?</p>
+      <article class="heroText">
+        <p>
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <a role="learn more" href="#">Read more</a>
+      </article>
+
+      <aside role="aside">
+        <h1>New</h1>
+        <article>
+          <a href="#">Hydrogen VS Electric Cars </a>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </article>
+        <article>
+          <a href="#">The Downsides of AI Artistry</a>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </article>
+        <article>
+          <a href="#">Is VC Funding Drying Up?</a>
+          <p>
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </article>
+      </aside>
+
+      <article role="otherSections" class="down first">
+        <figure></figure>
+        <section>
+          <p class="number">01</p>
+          <a href="#">Reviving Retro PCs </a>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </section>
+      </article>
+      <article role="otherSections" class="down second">
+        <figure></figure>
+        <section>
+          <p class="number">02</p>
+          <a href="#">Top 10 Laptops of 2022</a>
+          <p>Our best picks for various needs and budgets.</p>
+        </section>
+      </article>
+      <article role="otherSections" class="down third">
+        <figure></figure>
+        <section>
+          <p class="number">03</p>
+          <a href="#">The Growth of Gaming</a>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        rel="noopener"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/fodlu"> Musediq Fadilulahi fodlu_dev</a>.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
